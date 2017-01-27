@@ -1,0 +1,18 @@
+#include "exercise6.h"
+#include <iostream>
+
+using namespace std;
+
+string DivisionByZero::description()
+{
+string description = "Dzielenie przez 0 jest zabronione";
+return(description);
+}
+
+double div(const double& a, const double& b)throw(DivisionByZero)
+{
+if (b==0)
+{ throw DivisionByZero();
+}
+return(a/b);
+}
