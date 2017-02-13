@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-Person p1("kasia","nazwisko");
+Person p1("imie","nazwisko");
 Person p2= p1;
 
 cout<<p1.fullName()<<endl;

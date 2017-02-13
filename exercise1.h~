@@ -7,7 +7,7 @@ using namespace std;
 class Person
 {
 public:
-    Person(const string& firstName, const string& surname);
+    Person(const string&  firstName, const string& surname);
     Person(const Person& person);
     Person();
     ~Person();

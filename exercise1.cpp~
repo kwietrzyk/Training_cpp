@@ -3,7 +3,7 @@
 
 using namespace std;
 
-Person::Person(const string& firstName, const string& surname)     
+Person::Person(const string&  firstName, const string& surname)     
 {
 _firstName=firstName;
 _surname=surname;
